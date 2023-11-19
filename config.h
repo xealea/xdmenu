@@ -6,7 +6,7 @@ static int min_width = 400;		/* minimum width when centered */
 static int fuzzy = 1;			/* -F option; if 0, dmenu doesn't use fuzzy matching */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"RobotoMono Nerd Font:size=10.5:antialias=true:autohint=true",
+	"JetBrainsMono Nerd Font:size=10.5:antialias=true:autohint=true",
 };
 
 static const char col_soft_black[] = "#212121";
@@ -15,7 +15,7 @@ static const char col_dirty_white[] = "#eeeeee";
 static const char col_red[] = "#d75f5f";
 static const char col_dark_yellow[] = "#f7ca88";
 static const char col_white[] = "#eeeeee";
-static const char col_green[] = "#87af5f";
+static const char col_green[] = "#89938C";
 static const char col_blue[] = "#8197bf";
 static const char *prompt = NULL;	/* -p option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
