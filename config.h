@@ -9,14 +9,14 @@ static const char *fonts[] = {
 	"JetBrainsMono Nerd Font:size=10.5:antialias=true:autohint=true",
 };
 
-static const char col_soft_black[] = "#212121";
+static const char col_soft_black[] = "#161616";
 static const char col_gray[] = "#313131";
 static const char col_dirty_white[] = "#eeeeee";
 static const char col_red[] = "#d75f5f";
 static const char col_dark_yellow[] = "#f7ca88";
 static const char col_white[] = "#eeeeee";
-static const char col_green[] = "#89938C";
-static const char col_blue[] = "#8197bf";
+static const char col_green[] = "#f2f4f8";
+static const char col_blue[] = "#78a9ff";
 static const char *prompt = NULL;	/* -p option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/* fg bg */
